@@ -1,0 +1,500 @@
+  110  git status
+  111  ls
+  112  cd Git_pruebas/
+  113  git status
+  114  ls
+  115  ls- l
+  116  ls -l
+  117  git config --global alias.unstage 'reset --HEAD'
+  118  git status
+  119  git last
+  120  gitk
+  121  git status
+  122  ls
+  123  cd..
+  124  cd ..
+  125  mkdir proyecto_WEB
+  126  cd proyecto_WEB/
+  127  git config --global --list
+  128  git init
+  129  git config --local user.name "Pablo Rivas"
+  130  git config --local user.email pablorivasliebana@gmail.com
+  131  git config --local --list
+  132  git config --local core.editor nano
+  133  git config --local --list
+  134  clean
+  135  clear
+  136  mkdir javascript css
+  137  ls
+  138  git st
+  139  git status
+  140  touch index.html
+  141  git status
+  142  git add .
+  143  git commit -m "Inicializamos el proyecto"
+  144  git confug --global alias.st status
+  145  git config --global alias.st status
+  146  git st
+  147  clear
+  148  git status
+  149  git config --global alias.br branch
+  150  git br
+  151  ls
+  152  git st
+  153  git add .
+  154  git st
+  155  ls
+  156  git st
+  157  git add .
+  158  git st
+  159  ls
+  160  git br
+  161  git st
+  162  git add.
+  163  git add .
+  164  clear
+  165  git commit -m "Añadido index.html"
+  166  git log --oneline
+  167  git st
+  168  nano javascript/script.js
+  169  git st
+  170  git add .
+  171  git commit -m "Proyecto preparado pata empezar a ramificar"
+  172  git log --oneline
+  173  git checkout javascript
+  174  git checkout javascript
+  175  git st
+  176  git br
+  177  git br javascript
+  178  git br css
+  179  git checkout javascript
+  180  git log --oneline
+  181  clear
+  182  git log --oneline
+  183  git br
+  184  clear
+  185  git log --oneline
+  186  git br
+  187  git checkout css
+  188  git br
+  189  gitk
+  190  git checkout javascript 
+  191  ls
+  192  git checkout master
+  193  git checkout javascript 
+  194  nano javascript/script.js 
+  195  cat javascript/script.js 
+  196  git checkout master
+  197  cat javascript/script.js 
+  198  cat javascript/script.js 
+  199  git st
+  200  git log --oneline
+  201  clear
+  202  git log --oneline
+  203  git st
+  204  git checkout javascript 
+  205  cat javascript/script.js 
+  206  nano javascript/script.js 
+  207  git add.
+  208  git add .
+  209  git commit -m "Añadido cambio a javascript"
+  210  git checkout master
+  211  cat javascript/script.js 
+  212  nano index.html 
+  213  git log --oneline
+  214  git st
+  215  git add .
+  216  git commit -m "Añadimos un cambo a index.html"
+  217  git merch javascript/script.js
+  218  git merge javascript/script.js
+  219  git merge javascript
+  220  git log --oneline
+  221  git checkout javascript 
+  222  nano javascript/script.js 
+  223  git add .
+  224  git commit -m "Cambio en en el script"
+  225  nano javascript/script.js 
+  226  git add .
+  227  git commit -m "Cambio en en el script n2"
+  228  git checkout master 
+  229  nano javascript/script.js 
+  230  git add .
+  231  git commit -m "Cambio en en el script poquillo"
+  232  git st
+  233  git st
+  234  git log --oneline
+  235  git branch
+  236  git checkout prueba1
+  237  git log --oneline
+  238  git checkout prueba2
+  239  git log --oneline
+  240  ls
+  241  cd tests
+  242  ls
+  243  nano archivo.b
+  244  git add .
+  245  git commit -m "Modificamos el archivo.b en la rama prueba2"
+  246  git st
+  247  nano archivo.p
+  248  nano archivo.p
+  249  git add .
+  250  git commit -m "Modificamos el archivo.p"
+  251  nano test.txt
+  252  nano test.txt
+  253  git add .
+  254  git commit -m "Modificamos el test.txt"
+  255  ls
+  256  nano test2.txt
+  257  git add .
+  258  git commit -m "Modificamos el test2.txt"
+  259  git log --oneline
+  260  git checkout master
+  261  git branch
+  262  git log --oneline
+  263  history
+  264  echo "Hola estas leyendome ahora mismo."> README.txt
+  265  ls
+  266  git add .
+  267  git commit -m "Subido archivo README.txt sin utilizar editor de texto nano"
+  268  git log --oneline
+  269  cd ..
+  270   git clone https://github.com/libgit2/libgit2
+  271  ls
+  272  mkdir /otros
+  273  mkdir otros
+  274  ls
+  275  cd otros
+  276  git log --oneline
+  277  git checkout pruebas2
+  278  git branch
+  279  git checkout prueba2
+  280  ls
+  281  cd ..
+  282  ls
+  283  git merge prueba1
+  284  git log --oneline
+  285  git add .
+  286  git commit -m "Probamos un merge en la ramas prueba1 y prueba2"
+  287  git log --oneline
+  288  git checkout master
+  289  git merge prueba1
+  290  git commit -m "Probamos un merge en la ramas master y prueba1"
+  291  cd tests/
+  292  nano .gitignore
+  293  nano .gitignore
+  294  git commit -m "Arreglamos un conflicto en la rama master tras fusionar, fallo encontrado archivo .gitignore"
+  295  git st
+  296  git log --oneline
+  297  git checkout prueba2
+  298  git log --oneline
+  299  git log
+  300  git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all
+  301  git config --global alias.[alias] "[comando]"git config --global alias.[alias] "[comando]"git config --global alias.[alias] "[comando]"git config --global alias.[alias] "[comando]"gitggg
+  302  giygggggggggg
+  303  git config --global alias.lg1 "log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all"
+  304  lg
+  305  lg1
+  306  clear
+  307  git config --global alias.lg1 "log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all"
+  308  lg1
+  309  clear
+  310  log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all
+  311  clear
+  312  git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --al
+  313  gitk
+  314  ls
+  315  cd otros
+  316  git st
+  317  git add .
+  318  git commit -m "Copiamos y pegamos archivos de directorio tests a el directorio otros"
+  319  ls
+  320  nano archivo.b
+  321  git add .
+  322  git commit -m "Modifucamos la copia de archivo.b en directorio otros"
+  323  nano archivo.p
+  324  git add .
+  325  git commit -m "Modificamos la copia de archivo.p en directorio otros"
+  326  git st
+  327  gitk
+  328  git clone http://github.com/vlc-qt/vlc-qt.git
+  329  ls
+  330  git add .
+  331  git add .
+  332  git commit -m "Prueba de descarga de archivos remotos de Github en rama prueba2 en el directorio otros"
+  333  ls
+  334  cd vlc-qt
+  335  ls
+  336  nano BUILDING.md 
+  337  gitk
+  338  git add .
+  339  git add .
+  340  cd ..
+  341  git add .
+  342  git commit -m "Eliminamos un archivo conflictivo en el directorio descargado en otros"
+  343  git add .
+  344  git commit -m "Eliminamos un segundo archivo conflictivo en el directorio descargado en otros"
+  345  git checkout prueba1
+  346  ls
+  347  cd ..
+  348  ls
+  349  cd otros
+  350  ls
+  351  git add .
+  352  git commit -m "Comprobamos la descarga en la rama prueba1"
+  353  git add .
+  354  git commit -m "Comprobamos la descarga en la rama prueba1"
+  355  gitk
+  356  git checkout prueba2
+  357  gitk
+  358  git branch
+  359  ls
+  360  cd ..
+  361  ls
+  362  cd test
+  363  cd tests
+  364  ls
+  365  git status
+  366  git log --all --graph --decorate --oneline --simplify-by-decoration
+  367  git log --all --graph --decorate --oneline
+  368  git status
+  369  git log --all --graph --decorate --oneline
+  370  clear
+  371  git status
+  372  git log --all --graph --decorate --oneline
+  373  itk
+  374  gitk
+  375  clear
+  376  git status
+  377  git log --all --graph --decorate --oneline
+  378  ls
+  379  git checkout master
+  380  git shortlog
+  381  clear
+  382  git status
+  383  git log
+  384  git status
+  385  git add .
+  386  git commit -m "Ultimo seguimiento de seguridad por si las moscas"
+  387  clear
+  388  git status
+  389  git branch
+  390  ls
+  391  git checkout prueba1
+  392  git status
+  393  ls
+  394  git branch
+  395  git checkout prueba2
+  396  git status
+  397  git branch
+  398  git status
+  399  git checkout master
+  400  git checkout prueba2
+  401  ls
+  402  git checkout master
+  403  git status
+  404  git add .
+  405  git commit -m "Movemos archivos de tipo html y css a un repositorio"
+  406  git status
+  407  git checkout prueba1
+  408  ls
+  409  git checkout prueba2
+  410  ls
+  411  git checkout master
+  412  ls
+  413  gitk
+  414  clear
+  415  git status
+  416  ls
+  417  git checkout prueba1
+  418  ls
+  419  git checkout prueba2
+  420  ls
+  421  git checkout master
+  422  git branch
+  423  git log --oneline
+  424  gitk
+  425  git st
+  426  man
+  427  man push
+  428  help push
+  429  help fetch
+  430  man -k fetch
+  431  git ramp
+  432  help blame
+  433  help help
+  434  help blame
+  435  info blame
+  436  lslslsllslslslslslslslslslslslsls
+  437  clear
+  438  clearñ
+  439  clear
+  440  clear
+  441  clear
+  442  git remote add origin
+  443  git remote add origin https://github.com/PabloMuYAnYO/PruebasDAW.git
+  444  git remote -v
+  445  git push -u origin master
+  446  clear
+  447  git remote -v
+  448  git push -u origin master
+  449  cd ~
+  450  ls -la
+  451  clear
+  452  ls -la
+  453  cd ~/.ssh
+  454  ssh-keygen
+  455  cd .ssh/
+  456  ls
+  457  cd d/
+  458  cd ..
+  459  cd d/
+  460  cd ../d
+  461  ls
+  462  cd ..
+  463  cd ..
+  464  ls
+  465  cd ..
+  466  ls
+  467  cd ..
+  468  ls
+  469  cd d/
+  470  ls
+  471  cd Datos_00
+  472  ls
+  473  cd Academia_Grupo_Studio/
+  474  ls
+  475  cd Entornos_de_Desarrollo/GIT/Git_pruebas
+  476  ls
+  477  clear
+  478  git st
+  479  git remote -v
+  480  git push -u origin master
+  481  ssh -T git@github.com
+  482  clear
+  483  git st
+  484  git remote -v
+  485  git push -u origin master
+  486  ssh -T git@github.com
+  487  git remote rm origin
+  488  git remote add origin https://github.com/PabloMuYAnYO/PruebasDAW.git
+  489  git remote -v
+  490  git push -u origin master
+  491  git remote rm origin
+  492  git remote add git@github.com:PabloMuYAnYO/PruebasDAW.git
+  493  git remote add origin git@github.com:PabloMuYAnYO/PruebasDAW.git
+  494  git remote -v
+  495  git push -u origin master
+  496  git init
+  497  git config --golbal user.name "Pable"
+  498  git config --global user.name "Pable"
+  499  clear
+  500  ls
+  501  pwd
+  502  ls -a
+  503  clear
+  504  ls -a
+  505  git status
+  506  mkdir planets/
+  507  ls
+  508  cd planets
+  509  cd ..
+  510  mkdir moons/
+  511  cd moons
+  512  git status
+  513  cd ..
+  514  rm moons/
+  515  ls
+  516  ls
+  517  mkdir moons/
+  518  cd moons
+  519  touch moon phobos deimos titan
+  520  ls
+  521  cd ..
+  522  ls moons
+  523  git add moons/*
+  524  git status
+  525  git add .
+  526  git status
+  527  git commit -m "add moon files"
+  528  git status
+  529  nano .gitignore
+  530  git status
+  531  git add .
+  532  git commit -m "modified .gitignore"
+  533  pwd
+  534  cd planets
+  535  pwd
+  536  nano mars.txt
+  537  ls
+  538  git status
+  539  git add .
+  540  git commit -m "add mars.txt in planets/"
+  541  git status
+  542  git log
+  543  git log --oneline
+  544  git log -1
+  545  nano mars.txt
+  546  git status
+  547  gitk
+  548  git add .
+  549  git diff
+  550  git diff mars.txt
+  551* 
+  552  git diff
+  553  git diff --staged
+  554  git commit -m "Add concers about effects of Mars' moons on Wolfman"
+  555  git status
+  556  nano mars.txt
+  557  git diff
+  558  git add .
+  559  git diff --staged
+  560  git commit -m "Discuss concers about Mars' climate for Mummy"
+  561  git status
+  562  git history
+  563  git log
+  564  git log --oneline --graph -all --decorate
+  565  git log --oneline --graph --all --decorate
+  566  git status
+  567  nano mars.txt
+  568  nano venus.txt
+  569  git add mars.txt venus.txt
+  570  git commit -m "Write plans to start a base on Venus"
+  571  git log --format=full
+  572  git commit --author="Pable <pablorivasliebana@gmail.com>"
+  573  git log --format=full
+  574  git add me.txt
+  575  nano mars.txt
+  576  git add .
+  577  git diff HEAD mars.txt
+  578  nano mars.txt
+  579  git status
+  580  git checkout HEAD mars.txt
+  581  cat mars.txt
+  582  git status
+  583  nano venus.txt
+  584* 
+  585  nano venus.txt
+  586  git commit -m "Comment on Venus as an unsuitable base"
+  587  git checkout HEAD venus.txt
+  588  cat venus.txt
+  589  nano venus.txt
+  590  git add venus.txt
+  591  git status
+  592  git commit -m "Comment on Venus as an unsuitable base"
+  593  git status
+  594  git log mars.txt
+  595  git log --patch mars.txt
+  596  mkdir results
+  597  cd results
+  598  touch a.dat b.dat results/a.out results/b.out
+  599  cd ..
+  600  touch a.dat b.dat results/a.out results/b.out
+  601  nano .gitignore
+  602  git status
+  603  git add .
+  604  git add .gitignore
+  605  git commit -m "Modified .gitignore"
+  606  git status
+  607  git status --ignored
+  608  git history
+  609  history>history.txt
